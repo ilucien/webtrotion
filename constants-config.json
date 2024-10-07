@@ -18,7 +18,7 @@
 		"this-github-repo": "https://github.com/ilucien/webtrotion"
 	},
 	"custom-domain": "",
-	"base-path": "",
+	"base-path": "/home",
 	"giscus": {
 		"data-repo": "",
 		"data-repo-id": "R_kgDOM60FfQ",
