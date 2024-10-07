@@ -59,7 +59,7 @@ const id = buildHeadingId(block.Heading1);
 		</details>
 	) : (
 		<h1
-			class={`mb-1 mt-8 cursor-pointer text-6xl font-semibold ${setId ? "hasId" : "noId"}`}
+			class={`mb-1 mt-8 cursor-pointer text-6xl font-regular leading-[70px] ${setId ? "hasId" : "noId"}`}
 			id={setId ? id : undefined}
 			onclick="
         var fullUrl = `${window.location.origin}${window.location.pathname}#${id}`;
