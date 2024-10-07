@@ -5,7 +5,7 @@ import { AUTHOR, WEBMENTION_LINK, HOME_PAGE_SLUG } from "./constants";
 
 const tl = "",
 	ds = "",
-	path = "/",
+	path = "/open",
 	oim = "";
 const database = await getDatabase();
 
