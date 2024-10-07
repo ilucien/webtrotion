@@ -8,7 +8,7 @@ import ThemeIcon from "../ThemeIcon.astro";
 
 const menuLinks = await getMenu();
 
-const url = new URL("https://ilucien.github.io/webtrotion/open");
+const url = new URL(Astro.request.url);
 
 let customIconURL: string = "";
 if (siteInfo.logo && siteInfo.logo.Type === "file") {
