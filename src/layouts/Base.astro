@@ -17,10 +17,10 @@ meta: { title = siteInfo.title, description = siteInfo.description, ogImage, art
    <head>
       <BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
    </head>
-   <body class="print:max-w-full screen:max-w-3xl">
+   <body class="print:max-w-full screen:max-w-6xl">
       <SkipLink />
       <Header />
-      <main id="main" class="lg:w-[125%]">
+      <main id="main" class="lg:w-[100%]">
          <slot />
       </main>
       <Footer />
