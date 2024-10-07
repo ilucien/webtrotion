@@ -15,9 +15,9 @@
 		"instagram": "https://www.instagram.com/lucien_iseli/",
 		"mastodon": "",
 		"calendar": "",
-		"this-github-repo": "https://github.com/ilucien/webtrotion/home/"
+		"this-github-repo": "https://github.com/ilucien/webtrotion/"
 	},
-	"custom-domain": "",
+	"custom-domain": "https://ilucien.github.io/webtrotion/home/",
 	"base-path": "",
 	"giscus": {
 		"data-repo": "",
