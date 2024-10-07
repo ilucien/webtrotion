@@ -15,10 +15,10 @@
 		"instagram": "https://www.instagram.com/lucien_iseli/",
 		"mastodon": "",
 		"calendar": "",
-		"this-github-repo": "https://github.com/ilucien/webtrotion"
+		"this-github-repo": "https://github.com/ilucien/webtrotion/home"
 	},
 	"custom-domain": "",
-	"base-path": "/home",
+	"base-path": "",
 	"giscus": {
 		"data-repo": "",
 		"data-repo-id": "R_kgDOM60FfQ",
