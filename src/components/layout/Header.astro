@@ -30,7 +30,7 @@ const rss_path = getNavLink("/rss.xml");
 		<a
 			href={getNavLink("/")}
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
-			aria-current={url.pathname === "/open" ? "page" : false}
+			aria-current={url.pathname === "/" ? "page" : false}
 		>
 			{
 				siteInfo.logo && siteInfo.logo.Type === "emoji" ? (
