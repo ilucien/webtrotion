@@ -82,15 +82,12 @@ const rss_path = getNavLink("/rss.xml");
 					</a>
 				))
 			}
-			<Search />
-			<ThemeIcon />
 		</nav>
 	</div>
 	<div class="flex flex-row print:hidden">
-		<div class="h-10 w-10 items-center justify-center rounded-md p-1.5 hover:text-accent hidden">
-			<a href={rss_path}
-				><Icon name={"rss"} class="h-7 w-7 hover:text-accent" aria-label="Open RSS Link" /></a
-			>
+		<Search />
+		<div class="translate-x-1">
+			<ThemeIcon />
 		</div>
 		<mobile-button>
 			<button
