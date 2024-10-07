@@ -28,9 +28,9 @@ const rss_path = getNavLink("/rss.xml");
 >
 	<div class="flex sm:flex-col">
 		<a
-			href={getNavLink("/open")}
+			href={getNavLink("/")}
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
-			aria-current={url.pathname === "/" ? "page" : false}
+			aria-current={url.pathname === "/open" ? "page" : false}
 		>
 			{
 				siteInfo.logo && siteInfo.logo.Type === "emoji" ? (
